@@ -1,9 +1,26 @@
 {
-    "name": "VesGram",
-    "short_name": "Vesgram",
-    "start_url": "index.js",
-    "scope": "./",
-    "theme_color": "#ffd31d",
-    "background_color": "#333",
-    "display": "standalone"
-  }
+    "short_name": "VesGram",
+    "name": "blogging platform",
+    "icons": [
+        {
+            "src": "/images/icons-128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/images/icons-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/images/icons-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/app/",
+    "theme_color": "#3367D6"
+}
