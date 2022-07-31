@@ -76,7 +76,7 @@ const SignUp = () => {
             { isSignup && <Input name="confirmPassword" label="Repeat Password" handleChange={handleChange} type="password" /> }
           </Grid>
           <Button type="submit" fullWidth variant="contained" color="primary" className={classes.submit}>
-//             { isSignup ? 'Sign Up' : 'Sign In' }
+            { isSignup ? 'Sign Up' : 'Sign In' }
            </Button>
 //           <GoogleLogin
 //             clientId="990058146240-01gotnfaksupj33f18v61j7das3ll9ik.apps.googleusercontent.com"
@@ -89,7 +89,7 @@ const SignUp = () => {
 //             onFailure={googleError}
 //             cookiePolicy="single_host_origin"
 //           />
-          </Button>
+//           </Button>
           <Grid container justify="flex-end">
             <Grid item>
               <Button onClick={switchMode}>
