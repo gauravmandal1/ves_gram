@@ -88,7 +88,7 @@ const SignUp = () => {
 //             onSuccess={googleSuccess}
 //             onFailure={googleError}
 //             cookiePolicy="single_host_origin"
-          />
+//           />
           </Button>
           <Grid container justify="flex-end">
             <Grid item>
