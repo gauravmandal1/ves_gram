@@ -60,7 +60,7 @@ const Home = () => {
                 value={tags}
                 onAdd={(chip) => handleAddChip(chip)}
                 onDelete={(chip) => handleDeleteChip(chip)}
-                label="Search by location"
+                label="Search by Tag"
                 variant="outlined"
               />
               <Button onClick={searchPost} className={classes.searchButton} variant="contained" color="primary">Search</Button>
